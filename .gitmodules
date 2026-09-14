@@ -1,0 +1,12 @@
+[submodule "third_party/Craftax"]
+	path = third_party/Craftax
+	url = https://github.com/roger-creus/Craftax.git
+	branch = main
+[submodule "third_party/nle"]
+	path = third_party/nle
+	url = https://github.com/roger-creus/nle.git
+	branch = main
+[submodule "third_party/agentick"]
+	path = third_party/agentick
+	url = https://github.com/roger-creus/agentick.git
+	branch = main
