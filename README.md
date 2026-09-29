@@ -29,7 +29,7 @@ and interactive replay.
 *Sample trajectories from all nine suites, showing the grids agents receive.
 The last row contains the extended games.*
 
-[Quickstart](#quickstart) · [Environments](docs/ENVIRONMENTS.md) ·
+[Paper](https://arxiv.org/abs/2609.34214) · [Quickstart](#quickstart) · [Environments](docs/ENVIRONMENTS.md) ·
 [Evaluation](eval/README.md) · [Training](configs/rl/qwen35-4b-glyphbench/README.md) ·
 [Replay](docs/REPLAY.md) · [Contributing](CONTRIBUTING.md)
 
@@ -180,6 +180,21 @@ open the full system prompt, reasoning, memory, and legend. The
 - [Held-out Reasoning Gym evaluation](eval/reasoning_gym/README.md)
 - [Trajectory replay](docs/REPLAY.md) and [utility scripts](scripts/README.md)
 - [Architecture](docs/ARCHITECTURE.md) and [contributing](CONTRIBUTING.md)
+
+## Citation
+
+If you use GlyphBench, please cite the [paper](https://arxiv.org/abs/2609.34214):
+
+```bibtex
+@article{creuscastanyer2026glyphbench,
+  title   = {{GlyphBench}: A Playground for Language-Model Reinforcement Learning},
+  author  = {Creus Castanyer, Roger and C{\^o}t{\'e}, Marc-Alexandre and Sargent, Matthew James and
+             Mavor-Parker, Augustine N. and Berseth, Glen and Castro, Pablo Samuel},
+  journal = {arXiv preprint arXiv:2609.34214},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2609.34214}
+}
+```
 
 ## License
 
